@@ -9,7 +9,7 @@ router.post("/", todoController.createNewTodo);
 //router to update a todo
 router.put("/:id", todoController.updateTodo);
 //router to get a todo
-router.get("/:id", todoController.getTodById);
+router.get("/:id", todoController.getTodoById);
 //router to delete a todo
 router.delete("/:id", todoController.deleteTodo);
 

@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
 
     Todo.init(
         {
-            task: {
+            title: {
                 type: DataTypes.STRING,
                 allowNull: false, // Ensures that every Todo must have a task name
             },
